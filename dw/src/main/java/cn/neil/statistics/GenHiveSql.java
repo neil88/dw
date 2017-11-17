@@ -1,10 +1,5 @@
-/**
- * @(#)GenHiveSql.java, 2017年7月5日. 
- * 
- * Copyright 2017 Netease, Inc. All rights reserved.
- * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
-package com.netease.mail.statistics;
+
+package cn.neil.statistics;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -56,12 +51,14 @@ public class GenHiveSql {
 //        String dstDir = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-08-08 主题域\\2 供应商主题域\\dw层 建表sql等资料\\";
 
 
-        String srcFile = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-09-26  供应商评级\\供应商评级_dm_建表.xlsx";
-        String dstDir = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-09-26  供应商评级\\";
+//        String srcFile = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-09-26  供应商评级\\供应商评级_dm_建表.xlsx";
+//        String dstDir = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-09-26  供应商评级\\";
 
 
 //        String srcFile = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-09-15 供应商系统结算款项需求\\供应商系统结算款项需求_调整_确认_2017-10-26\\供应商系统结算款项需求_调整_确认_2017-10-26.xlsx";
 //        String dstDir = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-09-15 供应商系统结算款项需求\\供应商系统结算款项需求_调整_确认_2017-10-26\\";
+        String srcFile = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-10-15  po单审批流&调价流2017.11.15\\采购单审批流_dw_建表.xlsx";
+        String dstDir = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-10-15  po单审批流&调价流2017.11.15\\";
 
         genHiveSql(srcFile, dstDir, 0, DEFAULT_ENCODE);
 
