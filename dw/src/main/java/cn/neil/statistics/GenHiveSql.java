@@ -66,7 +66,7 @@ public class GenHiveSql {
 //        String srcFile = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-12-01 严选采购执行流数据主题域开发\\质检部分\\采购单审批流_dw_建表.xlsx";
 //        String dstDir = "E:\\肖智坤\\MyWork_201607\\工作\\20170620 猛犸数据平台\\2017-12-01 严选采购执行流数据主题域开发\\质检部分\\";
 
-        genHiveSql(srcFile, dstDir, 1, DEFAULT_ENCODE);
+        genHiveSql(srcFile, dstDir, 4, DEFAULT_ENCODE);
 
     }
 
